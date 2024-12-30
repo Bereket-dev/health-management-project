@@ -39,7 +39,7 @@ int main() {
         {"Emebet", false},
         {"Solomon", false},
         {"Ahmed", false},
-        {"Hanan", false}
+        {"Hanan", false},
         {"Askalech",false},
         {"Tsion", false},
         {"Mulugeta", false},
