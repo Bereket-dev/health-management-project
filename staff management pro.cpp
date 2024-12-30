@@ -4,7 +4,7 @@
 using namespace std;
 
 // Maximum number of staff
-const int MAX_STAFF = 5;
+const int MAX_STAFF = 10;
 
 // Structure to store staff attendance details
 struct Staff {
@@ -25,7 +25,7 @@ void markAttendance(Staff staffList[], int size, const string& name, bool status
 }
 
 void displayAttendance(const Staff staffList[], int size) {
-    cout << "\n--- Attendance Status ---" << endl;
+    cout << "\n Attendance Status " << endl;
     for (int i = 0; i < size; ++i) {
         cout << "Name: " << staffList[i].name
              << ", Status: " << (staffList[i].isPresent ? "Present" : "Absent") << endl;
@@ -40,6 +40,11 @@ int main() {
         {"Solomon", false},
         {"Ahmed", false},
         {"Hanan", false}
+        {"Askalech",false},
+        {"Tsion", false},
+        {"Mulugeta", false},
+        {"Alemayew", false},
+        {"Abebe", false}
     };
 
     int choice;
@@ -47,7 +52,7 @@ int main() {
     bool status;
 
     do {
-        cout << "\n--- Staff Attendance System ---" << endl;
+        cout << "\n Staff Attendance System " << endl;
         cout << "1. Mark Attendance" << endl;
         cout << "2. Display Attendance" << endl;
         cout << "3. Exit" << endl;
