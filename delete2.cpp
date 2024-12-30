@@ -27,7 +27,7 @@ void add(){
 	num+=n;
 	cout<<"PLease enter their details:\n";
 	for(int i=num-n;i<num;i++){
-		cout<<"Enter the name of the "<<i<<" patient: ";
+		cout<<"Enter the name of the "<<i+1<<" patient: ";
 		cin.ignore();
 		getline(cin, pname[i]);
 		i:
