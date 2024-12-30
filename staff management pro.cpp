@@ -35,11 +35,11 @@ void displayAttendance(const Staff staffList[], int size) {
 int main() {
     // Static array to store staff names and attendance
     Staff staffList[MAX_STAFF] = {
-        {"Alice", false},
-        {"Bob", false},
-        {"Charlie", false},
-        {"Diana", false},
-        {"Eve", false}
+        {"Aschalew", false},
+        {"Emebet", false},
+        {"Solomon", false},
+        {"Ahmed", false},
+        {"Hanan", false}
     };
 
     int choice;
