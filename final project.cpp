@@ -1,11 +1,11 @@
 /**Project title: Hospital management system
  * These project is done by the following group members with collaboration using github:
- * 1. Bereket Desalegn   ID: ETS02  /16
- * 2. Bekam Yoseph       ID: ETS024 /16
+ * 1. Bereket Desalegn   ID: ETS0251/16
+ * 2. Bekam Yoseph       ID: ETS0240/16
  * 3. Befiker Kassahun   ID: ETS0236/16
- * 4. Barok Yeshiber     ID: ETS02  /16
- * 5. Amira              ID: ETS02  /16
- * 6. Bethelhem          ID: ETS02  /16
+ * 4. Barok Yeshiber     ID: ETS0224/16
+ * 5. Amira Abdurahman   ID: ETS0170/16
+ * 6. Bethelhem Degefu   ID: ETS0283/16
  */
 #include <iostream>
 #include <unordered_map> // For storing user credentials and other mappings
